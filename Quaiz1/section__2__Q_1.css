@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.form__container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+
+form{
+    background-color: aliceblue;
+    height: 45vh;
+    width: 35%;
+}
+
+.name__input >input{
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+}
+.name__input>label{
+    margin-left: 0.4rem;
+}
+
+.email__password > input{
+    margin-top: 1rem;
+    margin-left: 2.4rem;
+}
+
+#email{
+    margin-left: 3.8rem;
+}
+
+.email__password> label{
+    margin-left: 0.4rem;
+}
+
+.date{
+    margin-top: 1rem;
+}
+.date > input{
+    margin-left: 1.2rem;
+    width: 9rem;
+}
+.date> label{
+    margin-left: 0.4rem;
+}
+
+.gender{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.gender > .radio__button{
+    margin-left: 2rem;
+    font-size: 15px;
+}
+
+.gender > label{
+    margin-left: 0.4rem;
+}
+
+.mobile{
+    margin-top: 1rem;
+}
+
+.mobile >input{
+    margin-left: 2.5rem;
+}
+.mobile>label{
+    margin-left: 1rem;
+}
+
+.address{
+    margin-top: 1rem;
+}
+
+.address > label{
+margin-left: 1rem;
+}
+
+.address > textarea{
+
+    margin-left: 2.1rem;
+}
+
+.input__button{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 7rem;
+    gap: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 1rem;
+}
